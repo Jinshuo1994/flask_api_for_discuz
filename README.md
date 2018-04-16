@@ -67,24 +67,6 @@ sample response:
             "dataline": "2018-04-16T01:59:34",
             "uid": 29,
             "username": "Nick"
-        },
-        {
-            "content": "你好, Zhang 很高兴认识你",
-            "dataline": "2018-04-16T01:57:05",
-            "uid": 29,
-            "username": "Nick"
-        },
-        {
-            "content": "Hello. I am a graduate student studying at University of Maryland. What about you?",
-            "dataline": "2018-04-16T01:58:54",
-            "uid": 28,
-            "username": "zhang"
-        },
-        {
-            "content": "I am a freshman",
-            "dataline": "2018-04-16T01:59:34",
-            "uid": 29,
-            "username": "Nick"
         }
     ]
 }
