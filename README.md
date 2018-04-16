@@ -12,7 +12,7 @@ APIs have already been implemented
 in my personal blog)  
 sample http request:  
 `127.0.0.1:5000/login`  
-params: `username=zhang&password=password`  
+params: `username=zhang&password=password1`  
 method: `POST`  
 sample response: 
 ```json
