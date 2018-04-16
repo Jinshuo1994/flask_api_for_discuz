@@ -168,7 +168,7 @@ python manage.py db upgrade
 About me: I am a first year graduate student eagerly seeking summer intership for 2018 and *Software Develop* posisiton job for 2019.  
 
 ## Development Details
-See details at my personal ![blog](https://jinshuo1994.github.io/) 
+See details at my personal [blog](https://jinshuo1994.github.io/) 
 
 
 
