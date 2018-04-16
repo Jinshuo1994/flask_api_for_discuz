@@ -158,6 +158,9 @@ python manage.py db upgrade
 
 ```
 
+## Tests
+See in my personal [blog][1]
+
 ## Versioning
 
 *v1.0.0*
@@ -168,7 +171,10 @@ python manage.py db upgrade
 About me: I am a first year graduate student eagerly seeking summer intership for 2018 and *Software Develop* posisiton job for 2019.  
 
 ## Development Details
-See details at my personal [blog](https://jinshuo1994.github.io/) 
+See details at my personal [blog][1]
+(I am working on building up this tech blog)
+
+[1]: https://jinshuo1994.github.io/
 
 
 
