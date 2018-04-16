@@ -22,7 +22,10 @@ sample response:
 ```
 
 **2. register with username, password, email**  
-sample http request: `127.0.0.1:5000/register`params`username=zhang&password=password1&&email=testemail@gmail.com` method:`POST`
+sample http request:  
+`127.0.0.1:5000/register`  
+params: `username=zhang&password=password1&&email=testemail@gmail.com`  
+method:`POST`
 
 sample response:
 ```json
@@ -34,7 +37,8 @@ sample response:
 **3. get user profiles**  
 sample http request:  
 `127.0.0.1:5000/profile`  
-header: `x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
+header:  
+`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
 
 sample response:
@@ -50,7 +54,8 @@ sample response:
 
 **4. get user messages**  
 sample http request: `127.0.0.1:5000/messages`  
-header: `x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
+header:  
+`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
 
 sample response:
@@ -83,7 +88,8 @@ sample response:
 (Since the default forum id is 2. This forum is used for test. Assume "log in" is required before access the forum)
 sample http request:  
 `127.0.0.1:5000/forum/2`  
-header: `x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
+header:  
+`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
 
 sample response:  
@@ -117,7 +123,8 @@ sample response:
 
 **6. log out**  
 sample http request: `127.0.0.1:5000/logout`  
-header: `x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
+header:  
+`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`POST`  
 
 sample response:
