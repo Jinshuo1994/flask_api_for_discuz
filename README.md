@@ -10,7 +10,10 @@ APIs have already been implemented
 **1. log in with username and password**  
 (To ensure the stateless, token is used and sent to server from client every request. Details can be found
 in my personal blog)  
-sample http request: `127.0.0.1:5000/login`params:`username=zhang&password=password` method:`POST`
+sample http request:  
+`127.0.0.1:5000/login`  
+params: `username=zhang&password=password`  
+method: `POST`  
 sample response: 
 ```json
 {
@@ -29,7 +32,9 @@ sample response:
 ```
 
 **3. get user profiles**  
-sample http request: `127.0.0.1:5000/profile`header`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
+sample http request:  
+`127.0.0.1:5000/profile`  
+header: `x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
 
 sample response:
@@ -44,7 +49,8 @@ sample response:
 ```
 
 **4. get user messages**  
-sample http request: `127.0.0.1:5000/messages`header`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
+sample http request: `127.0.0.1:5000/messages`  
+header: `x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
 
 sample response:
@@ -75,7 +81,9 @@ sample response:
 
 **5. get posts by forum id**  
 (Since the default forum id is 2. This forum is used for test. Assume "log in" is required before access the forum)
-sample http request: `127.0.0.1:5000/forum/2`header`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
+sample http request:  
+`127.0.0.1:5000/forum/2`  
+header: `x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
 
 sample response:  
@@ -108,7 +116,8 @@ sample response:
 ```
 
 **6. log out**  
-sample http request: `127.0.0.1:5000/logout`header`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
+sample http request: `127.0.0.1:5000/logout`  
+header: `x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`POST`  
 
 sample response:
@@ -126,7 +135,7 @@ Change `SQLALCHEMY_DATABASE_URI` in `config.py` to the real database uri.
 ```
 pip install -r requirements.txt
 ```
-* Start the Server (at 5000 port in default. How to change the port and permit external web access is detailed in blog)
+* Start the Server (at 5000 port in default. How to change the port and permit external web access is detailed in [blog][1])
 ```
 python api.py
 ```
