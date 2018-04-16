@@ -5,8 +5,9 @@ Thia project aims to add api for *discuz* using Flask. Finally, a whole brand ne
 ## Getting Started
 
 APIs have already been implemented  
-(full tests including boundary test in a separate section below)
-1. log in with username and password  
+(full tests including boundary test in a separate section below)  
+
+**1. log in with username and password**  
 (To ensure the stateless, token is used and sent to server from client every request. Details can be found
 in my personal blog)  
 sample http request: `127.0.0.1:5000/login`params:`username=zhang&password=password` method:`POST`
@@ -17,7 +18,7 @@ sample response:
 }
 ```
 
-2. register with username, password, email  
+**2. register with username, password, email**  
 sample http request: `127.0.0.1:5000/register`params`username=zhang&password=password1&&email=testemail@gmail.com` method:`POST`
 
 sample response:
@@ -27,7 +28,7 @@ sample response:
 }
 ```
 
-3. get user profiles  
+**3. get user profiles**  
 sample http request: `127.0.0.1:5000/profile`header`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
 
@@ -42,7 +43,7 @@ sample response:
 }
 ```
 
-4. get user messages  
+**4. get user messages**  
 sample http request: `127.0.0.1:5000/messages`header`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
 
@@ -72,7 +73,7 @@ sample response:
 }
 ```
 
-5. get posts by forum id  
+**5. get posts by forum id**  
 (Since the default forum id is 2. This forum is used for test. Assume "log in" is required before access the forum)
 sample http request: `127.0.0.1:5000/forum/2`header`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`GET`  
@@ -106,7 +107,7 @@ sample response:
 }
 ```
 
-6. log out  
+**6. log out**  
 sample http request: `127.0.0.1:5000/logout`header`x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InpoYW5nIiwiZXhwIjoxNTIzODU5NTM3fQ.BBeUvz8Bh4jP2V7B65Nt-iX9fft_CRecB9jSgDK4Vms`   
 method:`POST`  
 
