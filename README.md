@@ -1,6 +1,6 @@
 # Flask *restful* api for *discuz*
 
-Thia project aims to add api for *discuz* using Flask. Finally, a whole brand new forum based on **Flask** will be built.
+This project aims to add api for *discuz* using Flask. Finally, a whole brand new forum based on **Flask** will be built.
 
 ## Getting Started
 
