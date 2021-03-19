@@ -16,7 +16,7 @@ idna==2.6
 inflect==0.2.5
 ipaddress==1.0.19
 itsdangerous==0.24
-Jinja2==2.10
+Jinja2==2.11.3
 jwt==0.5.2
 Mako==1.0.7
 MarkupSafe==1.0
